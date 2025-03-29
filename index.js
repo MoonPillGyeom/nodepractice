@@ -1,17 +1,11 @@
-function Start() {
-    console.log('Start');
-    Work();
-    End();
-}
+const { odd, even } = require('./var');
+const checkNumber = require('./func');
 
-function Work() {
-  setTimeout(() => {
-    console.log('Work');
-  }, 1000);
+function checkStringOddOrEven(str) {
+  if (str.length % 2) {
+    return odd;
+  }
+  return even;
 }
-
-function End() {
-    console.log('End');
-}
-
-Start();
+console.log(checkNumber(10));
+console.log(checkStringOddOrEven('hello'));
