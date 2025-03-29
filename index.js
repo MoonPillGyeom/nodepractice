@@ -13,3 +13,5 @@ function Work() {
 function End() {
     console.log('End');
 }
+
+Start();
