@@ -1,0 +1,1 @@
+이거 writeme.txt로 보내기
