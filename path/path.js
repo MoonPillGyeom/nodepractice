@@ -16,7 +16,10 @@ console.log('path.format():', path.format({
   name: 'path',
   ext: '.js',
 })); // path.parse()한 객체를 파일 경로로 합침
+
+// eslint-disable-next-line no-useless-escape
 console.log('path.normalize():', path.normalize('/Users////pillgyeom//\/Desktop/nodepractice.path')); // /를 \로 바꿔줌
+
 console.log('---------------------------------');
 console.log('path.isAbsolute():', path.isAbsolute('/Users/pillgyeom')); // 절대 경로인지 상대 경로인지 boolean으로 반환
 console.log('path.isAbsolute():', path.isAbsolute('../'));
