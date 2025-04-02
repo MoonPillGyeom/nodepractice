@@ -13,4 +13,4 @@ function checkStringOddOrEven(str) {
 console.log(checkNumber(10));
 console.log(checkStringOddOrEven('hello'));
 
-export default checkStringOddOrEven
+export default checkStringOddOrEven;

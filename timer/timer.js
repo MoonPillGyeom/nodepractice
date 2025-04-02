@@ -7,7 +7,6 @@ const interval = setInterval(() => {
   console.log('1초마다 실행');
 }, 1000);
 
-// eslint-disable-next-line no-unused-vars
 const timeout2 = setTimeout(() => {
   console.log('실행되지 않습니다');
 }, 3000);

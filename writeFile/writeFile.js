@@ -14,4 +14,4 @@ fs.writeFile('./writeFile/writeme.txt', '글이 입력됩니다.', (err) => {
     }
     console.log(data.toString());
   });
-})
+});

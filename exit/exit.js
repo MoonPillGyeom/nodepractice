@@ -13,4 +13,4 @@ setInterval(() => {
     }
     console.log(j);
   }
-}, 1000)
+}, 1000);

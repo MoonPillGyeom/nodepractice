@@ -6,14 +6,13 @@ const fs = require('fs');
 const path = require('path');
 
 const filepath = path.join(__dirname, 'readme.txt');
-console.log('filepath : ',filepath);
+console.log('filepath : ', filepath);
 // fs.readFile(filepath, (err, data) => {
 
-
-  fs.readFile('./read/readme.txt', (err, data) => {
-if (err) {
-throw err;
-}
-console.log(data);
-console.log(data.toString());
-})
+fs.readFile('./read/readme.txt', (err, data) => {
+  if (err) {
+    throw err;
+  }
+  console.log(data);
+  console.log(data.toString());
+});

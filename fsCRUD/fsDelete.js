@@ -23,4 +23,4 @@ fs.readdir('./folder', (err, dir) => {
       console.log('폴더 삭제 성공');
     });
   });
-})
+});

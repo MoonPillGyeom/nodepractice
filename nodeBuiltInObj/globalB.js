@@ -5,4 +5,4 @@
 const A = require('./globalA');
 
 global.message = '반갑습니다.';
-console.log(A())
+console.log(A());

@@ -5,4 +5,4 @@ const parsedUrl = url.parse('http://www.gitbut.co.kr/?page=3&limit=10&category=n
 const query = querystring.parse(parsedUrl.query);
 console.log('querystring.parse():', query);
 console.log('querystring.stringify():', querystring.stringify(query));
-console.log('querystring.pares.page: ', query.page)
+console.log('querystring.pares.page: ', query.page);

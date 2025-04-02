@@ -9,4 +9,4 @@ const even = '짝수입니다';
 //   even
 // };
 
-export {odd, even};
+export { odd, even };

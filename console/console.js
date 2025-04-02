@@ -1,10 +1,10 @@
 const string = 'ㄱㄷㄴ';
-const number = 1
+const number = 1;
 const boolean = true;
 const object = {
   outside: {
     inside: {
-      key: 'value'
+      key: 'value',
     },
   },
 };
@@ -25,11 +25,11 @@ console.timeEnd('시간 측정');
 
 function b() {
   console.trace('에러 위치 추적'); // 에러 위치 추적
-};
+}
 
 function a() {
   b();
-};
+}
 
 a();
 
