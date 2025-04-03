@@ -28,6 +28,7 @@ export default defineConfig([
       sourceType: 'module', // 자동으로 CommonJS 또는 ESM 감지
       globals: {
         ...globals.node,
+        ...globals.browser,
       },
     },
   },
