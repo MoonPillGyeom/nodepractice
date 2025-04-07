@@ -25,7 +25,7 @@ function getUser() {
               console.error(xhr.responseText);
             }
           };
-          xhr.open('PUT', '/users' + key);
+          xhr.open('PUT', '/users/' + key);
           xhr.setRequestHeader('Content-Type', 'application/json');
           xhr.send(JSON.stringify({ name: name }));
         });
@@ -47,7 +47,7 @@ function getUser() {
         userDiv.appendChild(span);
         userDiv.appendChild(edit);
         userDiv.appendChild(remove);
-        userDiv.appendChild(userDiv);
+        list.appendChild(userDiv);
       });
     } else {
       console.error(xhr.responseText);
@@ -68,6 +68,7 @@ document.getElementById('form').addEventListener('submit', (e) => {
   xhr.onload = () => {
     if (xhr.status === 201) {
       console.log(xhr.responseText);
+      getUser();
     } else {
       console.error(xhr.responseText);
     }
